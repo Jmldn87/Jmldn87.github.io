@@ -1,0 +1,43 @@
+  body {
+    background-color: gainsboro;
+  }
+
+  h1 {
+    text-align: center;;
+  }
+  
+  td,
+  th {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  td:hover {
+    background-color: aquamarine;
+  }
+   
+  .ndase-tabel {
+    background-color: aqua;
+  }
+  
+  .tabel {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .ubah {
+    background-color: azure;
+  }
+  
+  .ubah:hover {
+    background-color: aquamarine;
+  }
+  
+  .apus {
+    background-color: azure;
+  }
+  
+  .apus:hover {
+    background-color: aquamarine;
+  }
