@@ -1,0 +1,35 @@
+h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: auto;
+    padding: 100px;
+}
+
+.kotak1, .kotak2, .kotak3{
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.daftar{
+    width: 100%;
+    height: 25px;
+    padding: 1px 0;
+    background-color:white;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tombol{
+    width: 100%;
+    height: 40px;
+    padding: 5px 0;
+    border: none;
+    background-color:aquamarine;
+    font-size: 18px;
+    color: black;
+    border-radius: 20px;
+}
