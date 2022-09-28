@@ -1,0 +1,152 @@
+body {
+    background-color: antiquewhite;
+    box-sizing:border-box;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .kop-surat {
+    width: 55%;
+    margin: 0 auto;
+    background-color: greenyellow;
+    padding: 20px;
+  }
+
+  .data{
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 10px;
+    margin-bottom: 0px;
+  } 
+
+  .bungkus {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .pembungkus {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .masukan {
+    width: 70%;
+  }
+
+  .tanda {
+    width: 30%;
+  }
+
+  .gol_darah {
+    margin-left: 20px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .pengiriman {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  hr {
+    width: 90%;
+    height : 2px;
+    background-color: black;
+  }
+
+
+  button {
+    background-color:black;
+    transition: 0.2s;
+    text-align: center;
+    color: wheat;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+
+@media screen and (max-width: 800px) {
+  .kop-surat {
+    width: 75%;
+    padding: 0;
+  }
+  .pembungkus {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .masukan {
+    width: 100%;
+  }
+  .tanda {
+    width: 100%;
+  }
+  .catatan {
+    visibility: visible;
+  }
+  .title {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 410px) {
+    .kop-surat {
+      width: 100%;
+      padding: 0;
+    }
+    .pembungkus {
+      flex-direction: column;
+      gap: 5px;
+    }
+    .masukan {
+      width: 100%;
+    }
+    .tanda {
+      width: 100%;
+    }
+    .catatan {
+    visibility: hidden;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .kop-surat {
+      width: 75%;
+      padding: 0;
+    }
+    .pembungkus {
+      flex-direction: column;
+      gap: 5px;
+    }
+    .masukan {
+      width: 100%;
+    }
+    .tanda {
+      width: 100%;
+    }
+    .catatan {
+      visibility: visible;
+    }
+    .title {
+      font-size: 1rem;
+    }
+  }
