@@ -10,7 +10,7 @@ $(document).ready(function(){
           let konfirmasi = confirm(`Yakin mau menghapus ${mhsw} ??`);
           if(!konfirmasi) return;
 
-          $('#baris__'+id_baris).fadeOut();
+          $('#strip__'+id_baris).fadeOut();
 
       }else{
           alert("Anda berada di kolom : " + $(this).html() + "!");
