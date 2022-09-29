@@ -1,0 +1,130 @@
+body {
+    font-family: arial; 
+    background-color : antiquewhite;
+    display: block;
+}
+
+.kotak{
+    width: 794px;
+    background-color: white;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    padding: 20px;
+    height: 600px;
+}
+
+div{
+    display: block;
+}
+
+.judul{
+    display: flex;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-items: center;
+
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+#kampus {
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+h2{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.stmik{
+    display: flex;
+}
+
+.ikmi{
+    line-height: 40px;
+    font-size: 60px;
+    font-weight: bold;
+    color: red;
+    letter-spacing: 10px;
+}
+
+.stmik_cirebon{
+    margin-top: 0px;
+}
+
+.ikmi1{
+    font-size: 31px;
+    line-height: 21px;
+    font-weight: bold;
+    color: blue;
+    letter-spacing: 8px;
+}
+
+.cirebon{
+    line-height: 29px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #008800;
+}
+
+.alamat{
+    margin-top: 0px;
+    font-size: 14px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.alamt div {
+    letter-spacing: 2px;
+}
+
+.akreditasi{
+    display: flex;
+    width: 100%;
+}
+
+.surat{
+    background-color: #A52A2A;
+    width: 55%;
+    text-align: center;
+    color: white;
+    padding: 3px 0px;
+    font-weight: bold;
+}
+
+.terakreditasi{
+    width: 45%;
+    background-color: green;
+    text-align: center;
+    color: white;
+    padding: 3px 0px;
+    font-weight: bold;
+}
+
+.tugas{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tittle_surat{
+    letter-spacing: 4px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nomor{
+    font-size: medium;
+}
